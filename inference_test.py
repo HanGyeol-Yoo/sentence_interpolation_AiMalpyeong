@@ -66,7 +66,7 @@ for text in bogan_list:
 
 
 file_path = "origindata/nikluge-sc-2023-test.jsonl"
-output_file_path = "output/result/outputs.jsonl"
+output_file_path = "outputs.jsonl"
 
 with open(file_path, "r", encoding="utf-8") as input_file:
 
