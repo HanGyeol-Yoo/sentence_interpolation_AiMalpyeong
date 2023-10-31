@@ -10,3 +10,18 @@ test_bogan.ipynb으로 추론 진행 -> test_bogan.py 파일로 만들어서 pyt
 ```
 python inference_test.py
 ```
+
+## batch data 추론
+- "--data_path" : batch data 파일 경로
+- 결과 저장 경로 : "--save_path" 인자로 직접 입력 출력 형식은 .jsonl 이어야 함
+
+```
+python inference_batch.py --data_path [data_path] --save_path [save_path]
+```
+
+## single data 추론
+- 실행 시 결과가 바로 출력
+- "--sentence_1" 과 "--sentence_3"에 문장 입력
+```
+python inference_single.py --sentence_1 [sentence_1] --sentence_3 [sentence_3]
+```
