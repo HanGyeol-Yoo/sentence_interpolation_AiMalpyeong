@@ -15,7 +15,7 @@ bash run_sft.sh
 
 ## test set 추론
 - test set 데이터 경로 : 'data/test/test.json'
-- 결과 저장 경로 : 'result/test/outputs.jsonl'
+- 결과 저장 경로 : 'outputs.jsonl'
 ```
 python inference_test.py
 ```
