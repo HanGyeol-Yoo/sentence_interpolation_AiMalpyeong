@@ -1,12 +1,12 @@
 # sentence_interpolation_AiMalpyeong
-1.라이브러리 설치
+## 1.라이브러리 설치
 ```
 !pip install requrements.txt
 ```
-2. 데이터 전처리
+## 2. 데이터 전처리
 originaldata/convert_to_alpaca.ipynb 주피터노트북 파일 모두 실행
  
-3. 모델 학습
+## 3. 모델 학습
 terminal 환경에서 `source run_sft.sh` 명령어 실행 GPU 개수가 다르다면 
 run_sft.sh 파일에 `—-nproc_per_node 4` 부분 숫자를 사용할 GPU 개수로 지정
 
