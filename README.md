@@ -8,8 +8,10 @@
 originaldata/convert_to_alpaca.ipynb 주피터노트북 파일 모두 실행
  
 ## 3. 모델 학습
-terminal 환경에서 `source run_sft.sh` 명령어 실행 GPU 개수가 다르다면 
-run_sft.sh 파일에 `—-nproc_per_node 4` 부분 숫자를 사용할 GPU 개수로 지정
+terminal 환경에서 `run_sft.sh` 파일에 `—-nproc_per_node 4` 부분 숫자를 사용할 GPU 개수로 지정
+```
+bash run_sft.sh
+```
 
 ## test set 추론
 - test set 데이터 경로 : 'data/test/test.json'
