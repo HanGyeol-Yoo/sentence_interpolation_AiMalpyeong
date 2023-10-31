@@ -1,4 +1,5 @@
-# sentence_interpolation_AiMalpyeong
+# sentence_interpolation_AiMalpyeong - MLP Lab
+- issue contact : deedd123@gmail.com
 ## 1.라이브러리 설치
 ```
 !pip install requrements.txt
