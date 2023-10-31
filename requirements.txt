@@ -1,0 +1,7 @@
+torch
+transformers
+sentencepiece
+peft
+bitsandbytes
+deepspeed
+scipy
