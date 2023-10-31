@@ -1,9 +1,14 @@
 # sentence_interpolation_AiMalpyeong
-origindata/convert_to_alpaca.ipynb 에서 train,val,test 데이터셋 전처리 과정 진행 후 생성
-
-training 폴더에서 bash run_sft.sh으로 학습 진행 -> 데이터 경로 같은거 적기
-
-test_bogan.ipynb으로 추론 진행 -> test_bogan.py 파일로 만들어서 python test_bogan.py 로 실행했을 때 추론 결과가 생성되어야 함
+1.라이브러리 설치
+```
+!pip install requrements.txt
+```
+2. 데이터 전처리
+originaldata/convert_to_alpaca.ipynb 주피터노트북 파일 모두 실행
+ 
+3. 모델 학습
+terminal 환경에서 `source run_sft.sh` 명령어 실행 GPU 개수가 다르다면 
+run_sft.sh 파일에 `—-nproc_per_node 4` 부분 숫자를 사용할 GPU 개수로 지정
 
 ## test set 추론
 - test set 데이터 경로 : 'data/test/test.json'
