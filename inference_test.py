@@ -37,9 +37,9 @@ bogan_list=[]
 
 for i in range(len(json_data)):
     sentence1 = json_data[i]["input"].split("\n")[0].replace("", "")
-    sentence2 = json_data[i]["input"].split("\n")[1].replace("", "")
+    sentence3 = json_data[i]["input"].split("\n")[1].replace("", "")
 
-    input_text = f"{sentence1}\n{sentence2}\n"
+    input_text = f"{sentence1}\n{sentence3}\n"
     source = PROMPT_TEMPLATE.format_map({'instruction':input_text})
     tokened = tokenizer(source, return_tensors="pt").to(device)
 
