@@ -7,8 +7,8 @@ import argparse
 from peft import PeftModel
 
 p = argparse.ArgumentParser()
-p.add_argument('--data_path',required=True,type=str,help='데이터 경로 쓰라고')
-p.add_argument('--save_path',required=True,type=str,help='저장은 안해? 저장경로도 쓰라고')
+p.add_argument('--data_path',required=True,type=str,help='input data_path')
+p.add_argument('--save_path',required=True,type=str,help='input save_path')
 config = p.parse_args()
 
 
