@@ -1,5 +1,11 @@
 # sentence_interpolation_AiMalpyeong - MLP Lab
 - issue contact : deedd123@gmail.com
+## 0.adapter_model.bin 다운로드
+```
+https://drive.google.com/file/d/14SJEbNXbKA7tH-8kvlKn9pS5qcdzK8Qe/view?usp=sharing
+```
+위의 링크를 통해 adapter_model.bin를 output\sft_lora_model에 다운
+
 ## 1.라이브러리 설치
 ```
 !pip install requrements.txt
